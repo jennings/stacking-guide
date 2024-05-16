@@ -6,3 +6,16 @@ nav_order: 10
 = Git
 
 Git can be used by itself, but some actions may be a bit tedious.
+
+== Starting a new stack
+
+Create a new branch named _my-feature_ starting from the main branch:
+
+[source,shell]
+---
+$ git switch -c my-feature main
+---
+
+== Pushing your changes for review
+
+== Responding to code review feedback

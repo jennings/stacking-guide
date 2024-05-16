@@ -1,0 +1,18 @@
+---
+layout: default
+parent: Introduction
+nav_order: 7
+---
+
+= Glossary
+
+Main branch::
+The destination where reviewed revisions will land. Usually this is named
+_main_, _trunk_, or _master_, but some teams may use other names like _dev_.
+
+Stack::
+A sequence of commits that eventually should land in the main branch.
+
+Branch::
+In this guide, "branch" refers _just_ to the branch pointer, not to the stack of
+commits it points to. Git calls this a _ref_ or _reference_.

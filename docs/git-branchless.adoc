@@ -7,3 +7,9 @@ nav_order: 20
 
 https://github.com/arxanas/git-branchless[git-branchless] is an add-on tool for
 working with Git repositories. It adds
+
+== Starting a new stack
+
+== Pushing your changes for review
+
+== Responding to code review feedback

@@ -8,3 +8,36 @@ nav_order: 30
 Jujutsu (often called jj) is a VCS designed for the stacking workflow. It has
 novel features include _colocated repositories_, which can be used both as
 normal Git repositories and jj repositories simultaneously.
+
+== Starting a new stack
+
+Create a new revision with _main_ as its parent:
+
+[source,shell]
+---
+$ jj new main
+---
+
+== Pushing your changes for review
+
+[source,shell]
+---
+$ jj branch create my-branch
+---
+
+== Responding to code review feedback
+
+Use the edit workflow:
+
+[source,shell]
+---
+$ jj edit REV
+---
+
+Or the squash workflow:
+
+[source,shell]
+---
+$ jj new REV
+$ jj squash
+---
