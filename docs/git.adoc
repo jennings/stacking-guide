@@ -1,0 +1,8 @@
+---
+layout: default
+nav_order: 10
+---
+
+= Git
+
+Git can be used by itself, but some actions may be a bit tedious.

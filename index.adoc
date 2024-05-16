@@ -1,0 +1,68 @@
+---
+layout: default
+nav_order: 0
+has_children: true
+---
+
+= Introduction
+
+This is a guide to doing stacked diff code review.
+
+== What is it
+
+Other people have done a better job describing stacked diffs than I can:
+
+- https://jg.gg/2018/09/29/stacked-diffs-versus-pull-requests/[Stacked Diffs Versus Pull Requests]
+
+- https://newsletter.pragmaticengineer.com/p/stacked-diffs[Stacked Diffs (and why you should know about them)]
+
+- https://graphite.dev/guides/benefits-of-stacked-diffs-in-code-review[Benefits of stacked diffs in code review]
+
+In summary, stacked diff code review means:
+
+- One review corresponds to one commit.
+
+- To address code review feedback, you amend the commit and share the new
+  version.
+
+- Larger changes should be structured as a sequence of smaller, atomic commits,
+  each reviewed on its own merits.
+
+== Why bother
+
+Stacked diffs have the following benefits over pull requests:
+
+- One commit per code review encourages smaller, focused code reviews. Smaller
+  code reviews are easier to review and thus get approved quicker.
+
+- One commit per code review avoids commits named "fix" and "oops", which
+  clutter history if you don't squash merge your pull requests.
+
+- Since every commit must build,
+
+== Guides
+
+=== Stock Git
+
+Guide: [Stacked diffs with stock Git](./git.md)
+
+Git can be used alone, but stacking is easier with tools that encourage the
+workflow.
+
+Don't want to use any extra tools? This is a guide to using the stock Git CLI.
+
+=== Jujutsu (jj)
+
+Guide: link:./jj[Stacked diffs with jj]
+
+https://martinvonz.github.io/jj[Jujutsu (jj)]
+
+=== git-branchless
+
+Guide: xref:docs/git-branchless.adoc[Stacked diffs with git-branchless]
+
+https://github.com/arxanas/git-branchless[git-branchless] is 
+
+=== Other tools
+
+https://sapling-scm.com/[Sapling]

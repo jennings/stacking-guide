@@ -1,0 +1,23 @@
+---
+layout: default
+parent: Introduction
+nav_order: 5
+---
+
+= Which tool should I use?
+
+== I don't want to learn any new tools
+
+You can do the stacking workflow with xref:../git.adoc[stock Git]. Some
+workflows will be tedious because Git's UI isn't designed for this workflow.
+
+== I would like to learn "just enough"
+
+xref:../git-branchless.adoc[git-branchless] is a good choice to get started
+becuase it adds on to an existing Git repository. New commands become available,
+but all the same Git commands still work.
+
+== I'm willing to leave Git behind
+
+Choose either xref:../jj.adoc[Jujutsu] or https://sapling-scm.com/[Sapling]. I'm
+partial to Jujutsu, but both tools are lovely.
