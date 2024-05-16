@@ -10,6 +10,23 @@ working with Git repositories. It adds
 
 == Starting a new stack
 
+[source,shell]
+----
+$ git switch --detach main
+----
+
 == Pushing your changes for review
 
+[source,shell]
+----
+$ git branch my-feature
+$ git push -u origin my-feature
+----
+
 == Responding to code review feedback
+
+[source,shell]
+----
+$ git switch <commit_id>
+$ git amend
+----

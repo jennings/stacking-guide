@@ -1,0 +1,10 @@
+Site: http://jennings.io/stacking-guide/
+
+Guides for using stacked diff code review using tools that only understand pull
+requests.
+
+== License
+
+ This work is licensed under
+ https://creativecommons.org/licenses/by/4.0/[Creative Commons Attribution 4.0
+ International].

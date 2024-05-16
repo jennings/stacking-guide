@@ -38,31 +38,4 @@ Stacked diffs have the following benefits over pull requests:
 - One commit per code review avoids commits named "fix" and "oops", which
   clutter history if you don't squash merge your pull requests.
 
-- Since every commit must build,
-
-== Guides
-
-=== Stock Git
-
-Guide: [Stacked diffs with stock Git](./git.md)
-
-Git can be used alone, but stacking is easier with tools that encourage the
-workflow.
-
-Don't want to use any extra tools? This is a guide to using the stock Git CLI.
-
-=== Jujutsu (jj)
-
-Guide: link:./jj[Stacked diffs with jj]
-
-https://martinvonz.github.io/jj[Jujutsu (jj)]
-
-=== git-branchless
-
-Guide: xref:docs/git-branchless.adoc[Stacked diffs with git-branchless]
-
-https://github.com/arxanas/git-branchless[git-branchless] is 
-
-=== Other tools
-
-https://sapling-scm.com/[Sapling]
+- Since every commit must build, you tools like `git bisect` work better.
