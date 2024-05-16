@@ -14,9 +14,9 @@ normal Git repositories and jj repositories simultaneously.
 Create a new revision with _main_ as its parent:
 
 [source,shell]
----
+----
 $ jj new main
----
+----
 
 == Pushing your changes for review
 
